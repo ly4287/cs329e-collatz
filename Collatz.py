@@ -24,7 +24,7 @@ def collatz_read(s):
 # collatz_eval
 # ------------
 
-
+cache = {}
 def collatz_eval(i, j):
     """
     i the beginning of the range, inclusive
@@ -40,9 +40,8 @@ def collatz_eval(i, j):
     b = max(i,j)
 
     max_val = 0
-    cache = {}
     #create initial cache
-    for num in range(1,b+1):
+    for num in range(a,b+1):
 	    c = 1
 	    n = num
 	    if num in cache.keys():
@@ -96,3 +95,5 @@ def collatz_solve(r, w):
         i, j = collatz_read(s)
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
+
+
