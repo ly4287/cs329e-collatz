@@ -1,3 +1,105 @@
+commit 8266933916a67db015d08dc3952b9f5e93db999b
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 19:13:33 2018 -0500
+
+    ran cProfile again
+
+commit fe1cd533f9cdc072925c6897985e2acd84100f95
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 19:06:38 2018 -0500
+
+    ran pydoc3 and autopep8 using make files fix #16 #17
+
+commit 92f48962a4ffc39e110f0fdcf14e1fb713cd1f6d
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 18:57:44 2018 -0500
+
+    remove cprofile output from runcollatz.out fix #15
+
+commit 1b8918a5247abdda6078a7a60bccf5815fa5e4d1
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 18:55:34 2018 -0500
+
+    cProfile output in runcollatz.out
+
+commit e24ca1a023efa64d432941af1b5f58bfe55d4593
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 18:35:31 2018 -0500
+
+    implemented cached code until all tests passed
+
+commit 243facbc301a3e42ec67821b0485ef583dded315
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Thu Sep 20 18:15:04 2018 -0500
+
+    fix
+
+commit 61c4d33a0743b472374e2e838cc6285bdf1ba7d2
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 19 22:21:22 2018 -0500
+
+    added own unit and acceptance tests
+
+commit a476581b98fa0736d294e8209e59761d9a558556
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 19 20:34:22 2018 -0500
+
+    added and tested 100+ acceptance tests
+
+commit 09d749b057e41cc4829f6a68ba091e6aa3383ece
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 19 16:34:17 2018 -0500
+
+    added corner cases to acceptance tests
+
+commit 954852d7cd322e7b1d4c1ac3aa45bbf8a9d6ecab
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 19 16:23:06 2018 -0500
+
+    optimized collatz eval runtime
+
+commit 41b40424a6c9fae2a82ebbcdc0c6b9d5e581d615
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 17:02:05 2018 -0500
+
+    combine SphereCollatz.py closes #12
+
+commit 9d631904fc810ff118c7b7e55c691c27b4aa8104
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 16:55:20 2018 -0500
+
+    collatz_eval solution and test closes #10 #11
+
+commit 04209a8edbbf1cdd775c60ea664f3aa6d87ffb8a
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 16:40:21 2018 -0500
+
+    include coverage report in TestCollatz.out
+
+commit 8829575d72e4f0171bcc3f90a6d695a22f94a2e1
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 16:26:39 2018 -0500
+
+    add eval,print,solve unit tests closes #6 #7 #8
+
+commit 802bc941cf1d1570a5c2f5a4bf42a767384ec9be
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 16:22:15 2018 -0500
+
+    add more unit tests per method closes #5
+
+commit 94affa4940a0f39609751ff7ef1db4eb9a08642b
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Wed Sep 12 15:59:24 2018 -0500
+
+    fix unit tests closes #4
+
+commit 5fe3227b5cfe292526c9e76016da68f1eaa67ac0
+Author: ly4287 <ly4287@cs.utexas.edu>
+Date:   Mon Sep 10 10:54:02 2018 -0500
+
+    first commit
+
 commit 4127f06edfe1b74369ed0022ed9794f1009914f6
 Author: Lydia Yu <liddlelyd@gmail.com>
 Date:   Mon Sep 10 14:55:40 2018 +0000
