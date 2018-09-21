@@ -25,6 +25,8 @@ def collatz_read(s):
 # ------------
 
 cache = {}
+
+
 def collatz_eval(i, j):
     """
     i the beginning of the range, inclusive
@@ -32,39 +34,37 @@ def collatz_eval(i, j):
     return the max cycle length of the range [i, j]
     """
 
-
     assert 0 < i < 1000000
     assert 0 < j < 1000000
 
-    a = min(i,j)
-    b = max(i,j)
+    a = min(i, j)
+    b = max(i, j)
 
     max_val = 0
-    #create initial cache
-    for num in range(a,b+1):
-	    c = 1
-	    n = num
-	    if num in cache.keys():
-	        	continue
-	    while n > 1:
-	        if (n % 2) == 0 :
-	            n = (n // 2)
-	        else :
-	            n = (3 * n) + 1
-	        c += 1
-	        if n in cache.keys():
-	        	c += cache[n] - 1
-	        	break
-	    cache[num] = c
-    
-    
-    #find actual
+    # create initial cache
+    for num in range(a, b + 1):
+        c = 1
+        n = num
+        if num in cache.keys():
+            continue
+        while n > 1:
+            if (n % 2) == 0:
+                n = (n // 2)
+            else:
+                n = (3 * n) + 1
+            c += 1
+            if n in cache.keys():
+                c += cache[n] - 1
+                break
+        cache[num] = c
+
+    # find actual
     max_val = 0
-    for i in range(a,b+1):
-    	if cache[i] > max_val:
-    		max_val = cache[i]
+    for i in range(a, b + 1):
+        if cache[i] > max_val:
+            max_val = cache[i]
     return max_val
-    	
+
 
 # -------------
 # collatz_print
@@ -95,5 +95,3 @@ def collatz_solve(r, w):
         i, j = collatz_read(s)
         v = collatz_eval(i, j)
         collatz_print(w, i, j, v)
-
-
